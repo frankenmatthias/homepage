@@ -18,7 +18,7 @@
             <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
               <div class="team-member">
-                  {{publication.authors}} ({{publication.year}}). {{publication.name}}, <i>{{publication.outlet}}, {{publication.volume}}</i> ({{publication.issue}}), {{publication.pages}}. <a target="_blank" href="https://doi.org/{{ publication.doi }}">doi: {{publication.doi}}</a>
+                  {{publication.authors}} ({{publication.year}}). {{publication.name}}, <i>{{publication.outlet}}, {{publication.volume}}</i> {% if publication.issue%}({{publication.issue}}){% endif %}, {{publication.pages}}. <a target="_blank" href="https://doi.org/{{ publication.doi }}">doi: {{publication.doi}}</a>
   
 				<p><span data-i18n="publications.{{ publication.i18n }}">{{ publication.desc }}</span></p>
                   
