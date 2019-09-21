@@ -1,0 +1,14 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Consistency influences altered auditory feedback processing
+  i18n: jalpc
+  type: journal
+  outlet: Quarterly Journal of Experimental Psychology
+  year: 2019
+  doi: 10.1177/1747021819838939
+  authors: Franken, M. K., Acheson, D. J., McQueen, J. M., Hagoort, P., & Eisner, F.
+  volume: 72
+  issue: 10
+  pages: 2371-2379
+

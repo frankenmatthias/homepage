@@ -18,24 +18,10 @@
             <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
               <div class="team-member">
-                  <img src="{{ publication.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                  <h4>
-                  {% if publication.url %}
-                  <a href="{{ publication.url }}" target="_blank"><span class="navy">{{ publication.name }}</span></a>
-                  {% elsif publication.repo %}
-                  <a href="https://github.com/{{ publication.gh_user }}/{{ publication.repo }}" target="_blank"><span class="navy">{{ publication.name }}</span></a>
-                  {% else %}
-                  <span class="navy">{{ publication.name }}</span>
-                  {% endif %}
-                  </h4>
-                  <p><span data-i18n="publications.{{ publication.i18n }}">{{ publication.desc }}</span></p>
-                  {% if publication.repo %}
-                  <div user="{{ publication.gh_user }}" repo="{{ publication.repo }}" class="ghbtn">
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ publication.gh_user }}/{{ publication.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ publication.gh_user }}/{{ publication.repo }}/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
-                      <div style="height: 10px;"></div>
-                  </div>
-                  {% endif %}
+                  {{publication.authors}} ({{publication.year}}).{{publication.title}}. {{publication.outlet}}, {{publication.volume}} ({{publication.issue}}), {{publication.pages}}. <a target="_blank" style="width: 65px;" href="https://doi.org/{{ publication.doi }}" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>
+  
+				<p><span data-i18n="publications.{{ publication.i18n }}">{{ publication.desc }}</span></p>
+                  
               </div>
           </div>
       {% endfor %}
