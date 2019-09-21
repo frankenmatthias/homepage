@@ -1,0 +1,22 @@
+---
+layout: blog
+title: Presentations
+permalink: /presentations/
+---
+#{% include category.html %}
+
+
+{% for presentation in site.data.index.presentations %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+               
+    <div class="col-sm-6 wow col-sm-offset-3 zoomIn text-left">
+		<UL>            
+        	<div class="team-member">
+        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Poster presented at {{presentation.conference}}, {{presentation.date}}, {{presentation.location}}.
+  
+				<p><span data-i18n="presentations.{{ presentation.i18n }}">{{ presentation.desc }}</span></p>
+                  
+        	</div>
+    	</UL>
+    </div>
+{% endfor %}
