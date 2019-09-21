@@ -5,14 +5,23 @@ permalink: /presentations/
 ---
 #{% include category.html %}
 
-
 {% for presentation in site.data.index.presentations %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
+
+<div class="col-sm-6 wow col-sm-offset-3 zoomIn text-left">
+{% if  {{presentation.year}} ==  foo %}
+{% else %}
+<h2>{{presentation.year}}</h2>
+{% endif %}
+{% assign foo = {{presentation.year}} %}
                
-    <div class="col-sm-6 wow col-sm-offset-3 zoomIn text-left">
+    
 		<UL>            
         	<div class="team-member">
-        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Poster presented at {{presentation.conference}}, {{presentation.date}}, {{presentation.location}}.
+        		{% if {{presentation.type}} == 'poster' %}
+        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Poster presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}.
+        	    {% elsif {{presentation.type}} == 'conftalk' %}
+        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Talk presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}.
+        	    {% endif %}
   
 				<p><span data-i18n="presentations.{{ presentation.i18n }}">{{ presentation.desc }}</span></p>
                   
@@ -20,3 +29,7 @@ permalink: /presentations/
     	</UL>
     </div>
 {% endfor %}
+
+<div class="col-sm-6">
+	<p style="margin-bottom:3cm;"></p>
+</div>
