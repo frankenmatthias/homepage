@@ -9,7 +9,7 @@ permalink: /publications/
 {% for publication in site.data.index.publications %}
             {% assign loopindex = forloop.index | modulo: 2 %}
                
-    <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+    <div class="col-lg-8 text-left">
 		<UL>            
         	<div class="team-member">
         	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}, <i>{{publication.outlet}}, {{publication.volume}}</i>{% if publication.issue%} ({{publication.issue}}){% endif %}, {{publication.pages}}. <a target="_blank" href="https://doi.org/{{ publication.doi }}">doi: {{publication.doi}}</a>
