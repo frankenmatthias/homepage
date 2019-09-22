@@ -4,7 +4,7 @@
     detail: Ghent University
     i18n: company_a
   desc:
-    detail: Postdoctoral Researcher, Dept. of Experimental Psychology
+    detail: Postdoctoral Researcher, Dept. of Experimental Psychology <br>PI&#58; Robert J. Hartsuiker
     i18n: company_a_desc
   date:
     detail: Oct. 2017
@@ -19,7 +19,7 @@
     detail: Radboud University
     i18n: company_b
   desc:
-    detail: PhD at the Donders Institute for Brain, Cognition and Behaviour & Max Planck Institute for Psycholinguistics
+    detail: PhD at the Donders Institute for Brain, Cognition and Behaviour & Max Planck Institute for Psycholinguistics <br>Promotors&#58; Peter Hagoort & James M. McQueen
     i18n: company_b_desc
   date:
     detail: Sep. 2013 - Sep. 2017
