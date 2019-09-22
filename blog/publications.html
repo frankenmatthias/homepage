@@ -13,9 +13,9 @@ permalink: /publications/
 		<UL>            
         	<div class="team-member">
         		{% if {{publication.type}} == 'journal' %}
-        	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}, <i>{{publication.outlet}}, {{publication.volume}}</i>{% if publication.issue%} ({{publication.issue}}){% endif %}, {{publication.pages}}.{% if {{publication.doi}} %} <a target="_blank" href="https://doi.org/{{ publication.doi }}">doi: {{publication.doi}}</a>{% endif %}
+        	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}, <i>{{publication.outlet}}, {{publication.volume}}</i>{% if publication.issue%} ({{publication.issue}}){% endif %}, {{publication.pages}}.{% if {{publication.doi}} %} <a target="_blank" href="https://doi.org/{{ publication.doi }}">doi: {{publication.doi}}</a>{% endif %} {% if {{publication.article}} %} <a target="_blank" href="{{ publication.article | prepend: site.pdfurl}}">Full-Text</a>{% endif %}
         	    {% elsif {{publication.type}} == 'proceedings' %}
-        	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}. In <i>{{publication.outlet}}</i>, {{publication.location}}.
+        	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}. In <i>{{publication.outlet}}</i>, {{publication.location}}. {% if {{publication.article}} %} <a target="_blank" href="{{ publication.article | prepend: site.pdfurl}}">Full-Text</a>{% endif %}
         	    {% endif%}
   
 				<p><span data-i18n="publications.{{ publication.i18n }}">{{ publication.desc }}</span></p>

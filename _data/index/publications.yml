@@ -50,6 +50,7 @@
   type: proceedings
   outlet: Proceedings of InterSpeech
   location: Stockholm, Sweden
+  article: Franken_2017_interspeech.pdf
 
 - authors: <b>Franken, M. K.</b>, McQueen, J. M., Hagoort, P., & Acheson, D. J.
   year: 2015
@@ -57,6 +58,7 @@
   type: proceedings
   outlet: Proceedings of the 18th Congress of Phonetic Sciences
   location: Glasgow, UK
+  article: Franken_icphs.pdf
   
 - name: Modulations of the auditory M100 in an imitation task 
   i18n: jalpc
@@ -76,3 +78,4 @@
   volume: 17
   issue: 3
   pages: 17–36
+  article: Franken_2012_sstp.pdf
