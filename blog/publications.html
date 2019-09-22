@@ -13,7 +13,7 @@ permalink: /publications/
 		<UL>            
         	<div class="team-member">
         		{% if {{publication.type}} == 'journal' %}
-        	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}, <i>{{publication.outlet}}, {{publication.volume}}</i>{% if publication.issue%} ({{publication.issue}}){% endif %}, {{publication.pages}}. <a target="_blank" href="https://doi.org/{{ publication.doi }}">doi: {{publication.doi}}</a>
+        	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}, <i>{{publication.outlet}}, {{publication.volume}}</i>{% if publication.issue%} ({{publication.issue}}){% endif %}, {{publication.pages}}.{% if {{publication.doi}} %} <a target="_blank" href="https://doi.org/{{ publication.doi }}">doi: {{publication.doi}}</a>{% endif %}
         	    {% elsif {{publication.type}} == 'proceedings' %}
         	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}. In <i>{{publication.outlet}}</i>, {{publication.location}}.
         	    {% endif%}

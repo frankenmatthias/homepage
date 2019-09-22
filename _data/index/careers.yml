@@ -25,7 +25,37 @@
     detail: Sep. 2013 - Sep. 2017
     i18n: company_b_date
   job:
-    detail: PhD candidate
+    detail: PhD candidate (thesis&#58; "Listening for Speaking&#58; investigations of the relationship between speech perception and production")
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: false
+
+- name:
+    detail: Radboud University
+    i18n: company_b
+  desc:
+    detail: Master's Research Programme in Cognitive Neuroscience
+    i18n: company_b_desc
+  date:
+    detail: Sep. 2011 - Sep. 2013
+    i18n: company_b_date
+  job:
+    detail: MSc Conitive Neuroscience (specialization&#58; language & communication)
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: false
+
+- name:
+    detail: Leiden University
+    i18n: company_b
+  desc:
+    detail: BA in Linguistics
+    i18n: company_b_desc
+  date:
+    detail: Sep. 2008 - Sep. 2011
+    i18n: company_b_date
+  job:
+    detail: BA Linguistics (minors in Brain & Cognition and in Amerindian Linguistics)
     i18n: company_b_job
   icon: fa-plus-square
   present: false
