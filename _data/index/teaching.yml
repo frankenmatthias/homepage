@@ -1,0 +1,14 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- year: 2018-2019
+  content: Co-lecturer in the course “Language Psychology” of the master’s programme in psychology at Ghent University
+
+- year: 2017-2019
+  content: Guest lecture in the course “Cognitive psychology” of the master’s programme in psychology at Ghent University
+
+- year: 2016-2017
+  content: Teaching assistant in the Donders Toolkit in Advanced EEG/MEG analyses (2016, 2017)
+
+- year: 2014-2017
+  content: Organizing and teaching the two-day workshop “Programming in Presentation” at the Donders institute for Brain, Cognition and Behaviour (7 two-day workshops over the period 2014-2017)

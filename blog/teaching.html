@@ -1,0 +1,26 @@
+---
+layout: blog
+title: Teaching
+permalink: /teaching/
+---
+#{% include category.html %}
+
+<div class="container">
+
+{% for teachingItem in site.data.index.teaching %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+    
+    <div class="row">           
+        <div class="col-sm-1 wow col-sm-offset-3 zoomIn text-left">
+            {{teachingItem.year}}
+        </div>
+        <div class="col-sm-5 wow col-sm-offset-4 zoomIn text-left">
+            {{teachingItem.content}}
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+<div class="col-sm-6">
+	<p style="margin-bottom:3cm;"></p>
+</div>

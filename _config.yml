@@ -16,19 +16,20 @@ author:  # change following line to your infomation.
   last_name: Franken  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: frankenmatthias  # Leave blank if you don't have now
-  linkedin_id: matthias-franken-340a7146  # Leave blank if you don't have now
+  linkedin_id: matthias-franken-340a7146 # Leave blank if you don't have now
   facebook_username:   # Leave blank if you don't have now
   twitter_username: MatthiasFranken  # Leave blank if you don't have now
   email: matthias.franken@ugent.be  # Leave blank if you don't have now
   cv:  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: language
-    - name: brain
+    - name: fa-commenting-o
+    - name: fa-language
   skill_icon2:
-    - name: brain
-    - name: language
-  desc: Introduce myself will be here.  # Describe yourself.
+    - name: fa-language
+    - name: fa-commenting-o
+  desc: "I am a postdoctoral speech scientist at Ghent University. My main research interest is the sensorimotor nature of speech production. 
+  During my PhD research project at Radboud University (Nijmegen, the Netherlands), I investigated the relationship between speech perception and speech production, with a special emphasis on the role of auditory feedback in speech production. Currently, I'm investigating the snese of agency during speech production, and the role auditory feedback plays in vocal agency. I conduct my research using various techniques, including altered auditory feedback as well as neuroimaging techniques (e.g., magnetoencephalography)." # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
