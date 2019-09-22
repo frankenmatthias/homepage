@@ -21,6 +21,8 @@ permalink: /presentations/
         	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Poster presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}.
         	    {% elsif {{presentation.type}} == 'conftalk' %}
         	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Talk presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}.
+        	    {% elsif {{presentation.type}} == 'invtalk' %}
+        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Invited talk presented at {{presentation.institute}}, {{presentation.location}}, {{presentation.date}}.
         	    {% endif %}
   
 				<p><span data-i18n="presentations.{{ presentation.i18n }}">{{ presentation.desc }}</span></p>

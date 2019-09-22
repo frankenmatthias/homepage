@@ -12,7 +12,11 @@ permalink: /publications/
     <div class="col-sm-6 wow col-sm-offset-3 zoomIn text-left">
 		<UL>            
         	<div class="team-member">
+        		{% if {{publication.type}} == 'journal' %}
         	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}, <i>{{publication.outlet}}, {{publication.volume}}</i>{% if publication.issue%} ({{publication.issue}}){% endif %}, {{publication.pages}}. <a target="_blank" href="https://doi.org/{{ publication.doi }}">doi: {{publication.doi}}</a>
+        	    {% elsif {{publication.type}} == 'proceedings' %}
+        	    <LI>{{publication.authors}} ({{publication.year}}). {{publication.name}}. In <i>{{publication.outlet}}</i>, {{publication.location}}.
+        	    {% endif%}
   
 				<p><span data-i18n="publications.{{ publication.i18n }}">{{ publication.desc }}</span></p>
                   

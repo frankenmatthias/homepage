@@ -43,6 +43,20 @@
   volume: 142
   issue: 4
   pages: 2007-2018
+
+- authors: <b>Franken, M. K.</b>, Eisner, F., Schoffelen, J.-M., Acheson, D. J., Hagoort, P., & McQueen, J. M.
+  year: 2017
+  name: Audiovisual recalibration of vowel categories 
+  type: proceedings
+  outlet: Proceedings of InterSpeech
+  location: Stockholm, Sweden
+
+- authors: <b>Franken, M. K.</b>, McQueen, J. M., Hagoort, P., & Acheson, D. J.
+  year: 2015
+  name: Assessing the link between speech perception and production through individual differences
+  type: proceedings
+  outlet: Proceedings of the 18th Congress of Phonetic Sciences
+  location: Glasgow, UK
   
 - name: Modulations of the auditory M100 in an imitation task 
   i18n: jalpc
@@ -53,3 +67,12 @@
   authors: <b>Franken, M. K.</b>, Hagoort, P., & Acheson, D. J.
   volume: 142
   pages: 18-23
+
+- authors: <b>Franken, M. K.</b>, Huizinga, C. S. M., & Schiller, N. O.
+  year: 2012
+  name: De Grafemische Buffer&#58; Aspecten van een Spellingstoornis
+  type: journal
+  outlet: Stem-, Spraak- En Taalpathologie
+  volume: 17
+  issue: 3
+  pages: 17–36
