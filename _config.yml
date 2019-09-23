@@ -9,6 +9,7 @@ url: https://frankenmatthias.github.io/homepage  # url should be 'http://<github
 pdfurl: /homepage/pdfs/
 # url: http://127.0.0.1:4000
 img_path: /homepage/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path_index: /homepage/static/assets/img/landing
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
