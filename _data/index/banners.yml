@@ -3,7 +3,10 @@
 #
 # Images are expected to be located in `static/assets/img/`.
 - src: landing/header_test.jpg
-  title: first banner image
+  title: 
 
 - src: landing/defense.jpg
-  title: second banner image
+  title: Defense
+
+- src: landing/nijmegen.jpg
+  title: Nijmegen
