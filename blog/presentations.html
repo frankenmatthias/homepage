@@ -18,7 +18,7 @@ permalink: /presentations/
 		<UL>            
         	<div class="team-member">
         		{% if {{presentation.type}} == 'poster' %}
-        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Poster presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}.
+        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Poster presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}. {% if {{presentation.poster}} %}<a href="{{presentation.poster}}" target="blank"><i class="fa fa-file-pdf-o"></i></a>{% endif %}
         	    {% elsif {{presentation.type}} == 'conftalk' %}
         	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Talk presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}.
         	    {% elsif {{presentation.type}} == 'invtalk' %}
