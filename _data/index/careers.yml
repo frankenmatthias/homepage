@@ -1,7 +1,7 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Ghent University
+    detail: Ghent University, Belgium
     i18n: company_a
   desc:
     detail: Postdoctoral Researcher, Dept. of Experimental Psychology <br>PI&#58; Robert J. Hartsuiker
@@ -16,7 +16,7 @@
   present: true
 
 - name:
-    detail: Radboud University
+    detail: Radboud University, Nijmegen, the Netherlands
     i18n: company_b
   desc:
     detail: PhD at the Donders Institute for Brain, Cognition and Behaviour & Max Planck Institute for Psycholinguistics <br>Promotors&#58; Peter Hagoort & James M. McQueen
@@ -31,7 +31,7 @@
   present: false
 
 - name:
-    detail: Radboud University
+    detail: Radboud University, Nijmegen, the Netherlands
     i18n: company_b
   desc:
     detail: Master's Research Programme in Cognitive Neuroscience
@@ -40,13 +40,13 @@
     detail: Sep. 2011 - Sep. 2013
     i18n: company_b_date
   job:
-    detail: MSc Conitive Neuroscience (specialization&#58; language & communication)
+    detail: MSc Cognitive Neuroscience (specialization&#58; language & communication)
     i18n: company_b_job
   icon: fa-plus-square
   present: false
 
 - name:
-    detail: Leiden University
+    detail: Leiden University, the Netherlands
     i18n: company_b
   desc:
     detail: BA in Linguistics
