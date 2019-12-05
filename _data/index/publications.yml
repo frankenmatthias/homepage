@@ -5,12 +5,13 @@
   i18n: jalpc
   type: journal
   outlet: Journal of the Acoustical Society of America
-  year: in press
+  year: 2019
+  doi: 10.1121/1.5134449
   authors: <b>Franken, M. K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., Wartenberg, T., & Lind, A.
-  volume: 
-  issue: 
-  pages: 
-  article: Franken_JASA_accepted.pdf
+  volume: 146
+  issue: 6
+  pages: 4108-4121
+  article: Franken_JASA_2019.pdf
 
 - name: Consistency influences altered auditory feedback processing
   i18n: jalpc
