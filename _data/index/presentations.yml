@@ -2,6 +2,14 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
+- name: Drifting pitch awareness after exposure to altered auditory feedback
+  i18n: jalpc
+  type: conftalk
+  conference: Psycholinguistics in Flanders
+  year: 2020
+  location: Kaiserslautern, Germany
+  authors: <b>Franken, M. K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., & Lind, A.
+
 - name: Sense of agency is flexible during speech production with altered auditory feedback
   i18n: jalpc
   type: poster
