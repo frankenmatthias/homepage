@@ -38,6 +38,7 @@
   location: Egmond-aan-zee, the Netherlands
   authors: <b>Franken, M. K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., & Lind, A.
   date: 19-21 December 2019
+  past: yes
 
 - name: Sense of agency is flexible during speech production with altered auditory feedback
   i18n: jalpc
@@ -48,6 +49,7 @@
   authors: <b>Franken, M. K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., & Lind, A.
   date: 6-8 September 2019
   poster: https://mfr.de-1.osf.io/render?url=https://osf.io/gux29/?action=download%26mode=render
+  past: yes
 
 - name: The effect of passive sound attenuation in an altered auditory feedback paradigm
   type: poster
@@ -57,6 +59,7 @@
   authors: <b>Franken, M. K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., & Lind, A.
   date: 23-26 March 2019
   poster: https://mfr.de-1.osf.io/render?url=https://osf.io/edk5n/?action=download%26mode=render
+  past: yes
 
 - name: Opposing and following responses in sensorimotor speech control&#58; Why responses go both ways
   type: poster
@@ -66,6 +69,7 @@
   authors: <b>Franken, M. K.</b>, Acheson, D. J., McQueen, J. M., Hagoort, P., & Eisner, F.
   date: 2-4 July 2018
   poster: https://mfr.osf.io/render?url=https://osf.io/tpg38/?action=download%26mode=render
+  past: yes
 
 - name: Opposing and following responses in sensorimotor speech control&#58; Why responses go both ways
   i18n: jalpc
@@ -75,6 +79,7 @@
   location: Ghent, Belgium
   authors: <b>Franken, M. K.</b>, Acheson, D. J., McQueen, J. M., Hagoort, P., & Eisner, F.
   date: 4-5 June 2018
+  past: yes
 
 - authors: Dubinkina, N., Sijyeniyo, E., Broos, W., <b>Franken, M. K.</b>, Foucart, A., & Hartsuiker, R. J.
   name: Mindwandering states during bilingual reading
@@ -83,6 +88,7 @@
   year: 2018
   location: Ghent, Belgium
   date: 4-5 June 2018
+  past: yes
 
 - name: What auditory feedback can teach us about the perception-production link in speech
   type: invtalk
@@ -91,6 +97,7 @@
   location: Brussels, Belgium
   authors: <b>Franken, M. K.</b>
   date: 26 June 2017
+  past: yes
 
 - name: Audiovisual recalibration of vowel categories
   type: conftalk
@@ -99,6 +106,7 @@
   location: Leuven, Belgium
   authors: <b>Franken, M. K.</b>, Eisner, F., Schoffelen, J.-M., Acheson, D. J., Hagoort, P., & McQueen, J. M.
   date: 29-30 May 2017
+  past: yes
 
 - name: Neural mechanisms underlying auditory feedback processing during speech production
   type: conftalk
@@ -107,6 +115,7 @@
   location: Nijmegen, the Netherlands
   authors: <b>Franken, M. K.</b>, Eisner, F., Acheson, D. J., McQueen, J. M., Hagoort, P., & Schoffelen, J.-M.
   date: 23-24 November 2016
+  past: yes
 
 - authors: <b>Franken, M. K.</b>, Eisner, F., Acheson, D. J., McQueen, J. M., Hagoort, P., & Schoffelen, J.-M.
   name: Neural mechanisms underlying auditory feedback processing during speech production
@@ -115,6 +124,7 @@
   conference: the Eighth Annual Meeting of the Society for the Neurobiology of Language (SNL 2016)
   location: London, UK
   date: 18-20 August 2016
+  past: yes
 
 - authors: <b>Franken, M. K.</b>, Schoffelen, J.-M., McQueen, J. M., Acheson, D. J., Hagoort, P., & Eisner, F.
   name: Neural correlates of auditory feedback processing during speech production
@@ -123,6 +133,7 @@
   location: Aarhus, Denmark
   date: 10-12 June 2016
   year: 2016
+  past: yes
 
 - authors: <b>Franken, M. K.</b>, Eisner, F., McQueen, J. M., Hagoort, P., & Acheson, D. J.
   name: Following and Opposing Responses to Perturbed Auditory Feedback
@@ -131,6 +142,7 @@
   conference: Society for the Neurobiology of Language Annual Meeting 2015
   location: Chicago, IL, USA
   date: 15-17 October 2015
+  past: yes
 
 - authors: <b>Franken, M. K.</b>, McQueen, J. M., Hagoort, P., & Acheson, D. J.
   year: 2015
@@ -139,6 +151,7 @@
   conference: International Congress of Phonetic Sciences
   location: Glasgow, UK
   date: 10-14 August 2015
+  past: yes
 
 - name: Assessing speech production-perception interactions through individual differences
   type: conftalk
@@ -147,6 +160,7 @@
   location: Marche-en-Famenne, Belgium
   authors: <b>Franken, M. K.</b>, McQueen, J. M., Hagoort, P., & Acheson, D. J.
   date: 21-22 May 2015
+  past: yes
 
 - name: Effects of auditory feedback consistency on vowel production
   type: poster
@@ -155,6 +169,7 @@
   location: Marche-en-Famenne, Belgium
   authors: <b>Franken, M. K.</b>, McQueen, J. M., Hagoort, P., & Acheson, D. J.
   date: 21-22 May 2015
+  past: yes
 
 - name: Prediction, feedback and adaptation in speech production
   type: invtalk
@@ -163,6 +178,7 @@
   location: Leiden, the Netherlands
   authors: <b>Franken, M. K.</b>
   date: 6 November 2014
+  past: yes
 
 - name: Prediction, feedback and adaptation in speech imitation
   type: conftalk
@@ -171,6 +187,7 @@
   location: Nijmegen, the Netherlands
   authors: <b>Franken, M. K.</b>, Hagoort, P., & Acheson, D. J.
   date: 30-31 October 2014
+  past: yes
 
 - authors: <b>Franken, M. K.</b>, McQueen, J. M., Hagoort, P., & Acheson, D. J. 
   year: 2014
@@ -179,6 +196,7 @@
   conference: the 6th Annual Meeting of the Society for the Neurobiology of Language
   location: Amsterdam, the Netherlands
   date: 27-29 August 2014
+  past: yes
 
 - authors: <b>Franken, M. K.</b>, Hagoort, P., & Acheson, D. J.
   year: 2014
@@ -187,6 +205,7 @@
   conference: the International Workshop on Language Production
   location: Geneva, Switzerland
   date: 16-18 July 2014
+  past: yes
 
 - authors: <b>Franken, M. K.</b>, Acheson, D. J., & Hagoort, P. 
   year: 2013
@@ -195,3 +214,4 @@
   conference: the 5th Annual Meeting of the Society for Neurobiology of Language (SNL 2013)
   location: San Diego, CA, USA
   date: 6-8 November 2013
+  past: yes
