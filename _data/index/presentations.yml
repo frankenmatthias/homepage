@@ -2,6 +2,23 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
+- name: Sense of agency is flexible during speech production
+  i18n: jalpc
+  type: conftalk
+  conference: 12th International Seminar on Speech Production
+  year: 2020
+  location: Providence, RI, USA
+  authors: <b>Franken, M.K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., & Lind, A.
+  date: 14-17 December 2020
+
+- name: Audiovisual recalibration of vowel categories and their temporal stability
+  i18n: jalpc
+  type: conftalk
+  conference: Psycholinguistics in Flanders
+  year: 2020
+  location: Kaiserslautern, Germany
+  authors: Mock, C., <b>Franken, M. K.</b>, & Hartsuiker, R. J.
+
 - name: Drifting pitch awareness after exposure to altered auditory feedback
   i18n: jalpc
   type: conftalk
