@@ -18,11 +18,23 @@ permalink: /presentations/
 		<UL>            
         	<div class="team-member">
         		{% if {{presentation.type}} == 'poster' %}
-        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Poster presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}. {% if {{presentation.poster}} %}<a href="{{presentation.poster}}" target="blank"><i class="fa fa-file-pdf-o"></i></a>{% endif %}
+					{% if {{presentation.past}} == 'no' %}
+						<LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Poster to be presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}. {% if {{presentation.poster}} %}<a href="{{presentation.poster}}" target="blank"><i class="fa fa-file-pdf-o"></i></a>{% endif %}
+					{% else %}
+						<LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Poster presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}. {% if {{presentation.poster}} %}<a href="{{presentation.poster}}" target="blank"><i class="fa fa-file-pdf-o"></i></a>{% endif %}
+					{% endif %}
         	    {% elsif {{presentation.type}} == 'conftalk' %}
-        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Talk presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}.
+					{% if {{presentation.past}} == 'no' %}
+						<LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Talk to be presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}.
+					{% else %}
+						<LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Talk presented at {{presentation.conference}}, {{presentation.location}}, {{presentation.date}}.
+					{% endif %}
         	    {% elsif {{presentation.type}} == 'invtalk' %}
-        	    <LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Invited talk presented at {{presentation.institute}}, {{presentation.location}}, {{presentation.date}}.
+					{% if {{presentation.past}} == 'no'%}
+						<LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Invited talk to be presented at {{presentation.institute}}, {{presentation.location}}, {{presentation.date}}.
+					{% else %}
+						<LI>{{presentation.authors}} ({{presentation.year}}). {{presentation.name}}. Invited talk presented at {{presentation.institute}}, {{presentation.location}}, {{presentation.date}}.
+					{% endif %}
         	    {% endif %}
   
 				<p><span data-i18n="presentations.{{ presentation.i18n }}">{{ presentation.desc }}</span></p>
