@@ -33,6 +33,9 @@
                     {% if site.author.facebook_username %}
                     <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a></li>
                     {% endif %}
+					{% if site.author.publons %}
+                    <li><a href="https://publons.com/researcher/{{ site.author.publons }}" target="blank"><i class="ai ai-publons"></i></a></li>
+                    {% endif %}
                     {% if site.author.twitter_username %}
                     <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
                     {% endif %}
