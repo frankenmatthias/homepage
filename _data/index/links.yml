@@ -10,6 +10,11 @@
   website: https://www.ugent.be/pp/experimentele-psychologie/en
   icon: fa-university
 
+- last_name: UGent
+  desc: Hartsuiker lab
+  website: https://users.ugent.be/~rhartsui/hartsuiker-lab.html
+  icon: fa-university
+  
 - last_name: MPI for Psycholinguistics
   desc: Dept. Neurobiology of Language
   website: https://www.mpi.nl/department/neurobiology-language/4
@@ -17,4 +22,6 @@
 - last_name: Donders Institute
   desc: Dept. Sound Learning
   website: https://www.ru.nl/donders/research/theme-1-language-communication/research-groups-theme-1/sound-learning/
+
+
 
