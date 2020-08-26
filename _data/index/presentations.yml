@@ -4,7 +4,7 @@
 
 - name: Drifting pitch awareness after exposure to pitch-shifted auditory feedback
   i18n: jalpc
-  type: conftalk
+  type: poster
   conference: the twelfth annual meeting of the Society for the Neurobiology of Language
   year: 2020
   location: "[virtual conference]"
@@ -14,7 +14,7 @@
 
 - name: Who is to blame? Source monitoring during speech production
   i18n: jalpc
-  type: conftalk
+  type: poster
   conference: the twelfth annual meeting of the Society for the Neurobiology of Language
   year: 2020
   location: "[virtual conference]"
