@@ -2,6 +2,26 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
+- name: Drifting pitch awareness after exposure to pitch-shifted auditory feedback
+  i18n: jalpc
+  type: conftalk
+  conference: the twelfth annual meeting of the Society for the Neurobiology of Language
+  year: 2020
+  location: "[virtual conference]"
+  authors: <b>Franken, M.K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., & Lind, A.
+  date: 21-24 October 2020
+  future: yes
+
+- name: Who is to blame? Source monitoring during speech production
+  i18n: jalpc
+  type: conftalk
+  conference: the twelfth annual meeting of the Society for the Neurobiology of Language
+  year: 2020
+  location: "[virtual conference]"
+  authors: <b>Franken, M.K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., & Lind, A.
+  date: 21-24 October 2020
+  future: yes
+
 - name: Sense of agency is flexible during speech production
   i18n: jalpc
   type: conftalk
