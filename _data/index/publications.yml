@@ -1,6 +1,18 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Speaking with an alien voice&#58; Flexible sense of agency during vocal production
+  i18n: jalpc
+  type: journal
+  outlet: Journal of Experimental Psychology&#58; Human Perception & Performance
+  year: [accepted]
+  doi: 
+  authors: <b>Franken, M. K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., & Lind, A.
+  volume: 
+  issue: 
+  pages: 
+  article: 
+
 - name: Does passive sound attenuation affect responses to pitch-shifted auditory feedback?
   i18n: jalpc
   type: journal
