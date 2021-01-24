@@ -1,6 +1,17 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: McGill University, Montreal, Canada
+  desc:
+    detail: Postdoctoral Researcher, Department of Psychology <br>PI&#58; David Ostry
+  date:
+    detail: Jan. 2021
+  job:
+    detail: Postdoctoral Researcher
+  icon: fa-plus-square
+  present: true
+
+- name:
     detail: Ghent University, Belgium
     i18n: company_a
   desc:
