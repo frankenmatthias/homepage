@@ -18,13 +18,13 @@
     detail: Postdoctoral Researcher, Dept. of Experimental Psychology <br>PI&#58; Robert J. Hartsuiker
     i18n: company_a_desc
   date:
-    detail: Oct. 2017
+    detail: Oct. 2017 - Dec. 2020
     i18n: company_a_date
   job:
     detail: Postdoctoral Researcher
     i18n: company_a_job
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: Radboud University, Nijmegen, the Netherlands
