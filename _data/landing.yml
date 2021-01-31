@@ -37,6 +37,13 @@
   page: record/
   css: #testimonials
 
+- id: Publications
+  i18n: nav.blog
+  name: Publications
+  tpl: publications.html
+  page: publications/
+  css: #testimonials
+
 - id: Links
   i18n: nav.link
   name: Links
