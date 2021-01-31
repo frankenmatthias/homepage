@@ -46,14 +46,14 @@
 
 - id: Presentations
   i18n: nav.blog
-  name: Presentations
+  name: presentations
   tpl: presentations.html
   page: presentations/
   css: #testimonials
 
 - id: Teaching
   i18n: nav.blog
-  name: Teaching
+  name: teaching
   tpl: teaching.html
   page: teaching/
   css: #testimonials
