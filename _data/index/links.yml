@@ -1,5 +1,10 @@
 # links section data
 
+- last_name: Motor Neuroscience Lab
+  desc: Motor Neuroscience Lab
+  website: https://ostrylab.org
+  icon: fa-university
+
 - last_name: UGent
   desc: UGent profile page
   website: https://telefoonboek.ugent.be/nl/people/802002718561
