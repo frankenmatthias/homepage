@@ -58,6 +58,13 @@
   page: teaching/
   css: #testimonials
 
+- id: Thesis
+  i18n: nav.blog
+  name: Thesis
+  tpl: thesis.html
+  page: thesis/
+  css: #testimonials
+
 - id: Links
   i18n: nav.link
   name: Links
