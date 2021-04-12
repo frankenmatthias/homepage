@@ -31,8 +31,8 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-language
     - name: fa-commenting-o
-  desc: "I am a postdoctoral researcher at McGill University. My main research interest is the sensorimotor nature of speech production. During my PhD research project at Radboud University (Nijmegen, the Netherlands), I investigated the relationship between speech perception and speech production, 
-  with a special emphasis on the role of auditory feedback in speech production. <br>Subsequently, I moved to Ghent University where I investigated the sense of agency during speech production, and the role auditory feedback plays in vocal agency.  I recently moved to McGill University, where I will investigate the role of the sensory system in motor learning in consolidation. I conduct my research using various techniques, including altered auditory feedback as well as neuroimaging techniques (e.g., magnetoencephalography)." # Describe yourself.
+  desc: "I am a postdoctoral researcher at McGill University. My main research interest is the sensorimotor nature of speech production. During my PhD research project at Radboud University (Nijmegen, the Netherlands), I investigated the relationship between speech perception and speech production,
+  with a special emphasis on the role of auditory feedback in speech production. <br>Subsequently, I moved to Ghent University where I investigated the sense of agency during speech production, and the role auditory feedback plays in vocal agency.  I recently moved to McGill University, where I will investigate the role of the sensory system in speech motor learning. I conduct my research using various techniques, including online altered auditory feedback as well as neuroimaging techniques (e.g., magnetoencephalography, electroencephalography) and transcranial magnetic stimulation." # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
@@ -71,4 +71,3 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
