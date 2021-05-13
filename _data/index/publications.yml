@@ -8,9 +8,9 @@
   year: 2021
   doi: 10.1037/xhp0000799
   authors: <b>Franken, M. K.</b>, Hartsuiker, R. J., Johansson, P., Hall, L., & Lind, A.
-  volume: 
-  issue: advance online publication
-  pages: 
+  volume: 47
+  issue: 4
+  pages: 479-494
   article: Franken_JEPHPP_accepted.pdf
 
 - name: Does passive sound attenuation affect responses to pitch-shifted auditory feedback?
@@ -58,7 +58,7 @@
   issue: 4
   pages: 1458-1467
 
-- name: Individual variability as a window on production-perception interactions in speech motor control 
+- name: Individual variability as a window on production-perception interactions in speech motor control
   i18n: jalpc
   type: journal
   outlet: Journal of the Acoustical Society of America
@@ -72,7 +72,7 @@
 
 - authors: <b>Franken, M. K.</b>, Eisner, F., Schoffelen, J.-M., Acheson, D. J., Hagoort, P., & McQueen, J. M.
   year: 2017
-  name: Audiovisual recalibration of vowel categories 
+  name: Audiovisual recalibration of vowel categories
   type: proceedings
   outlet: Proceedings of InterSpeech
   location: Stockholm, Sweden
@@ -85,8 +85,8 @@
   outlet: Proceedings of the 18th Congress of Phonetic Sciences
   location: Glasgow, UK
   article: Franken_icphs.pdf
-  
-- name: Modulations of the auditory M100 in an imitation task 
+
+- name: Modulations of the auditory M100 in an imitation task
   i18n: jalpc
   type: journal
   outlet: Brain and Language
